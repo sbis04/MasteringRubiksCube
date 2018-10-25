@@ -15,7 +15,10 @@ Features
 
 Installing
 ----------
-1) Download the .apk file
+1) Download the mastering_rubiks.apk file
+2) Copy this .apk file to your Android device
+3) Install it
+4) Then run the app
 
 Pre-requisites
 --------------
