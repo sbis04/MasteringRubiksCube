@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appstar.souvik_biswas.rubikscube">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SelectionActivity"
+            android:label="Choose The Method"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".BasicActivity"
+            android:label="Basic Method"
+            android:parentActivityName=".SelectionActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SelectionActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".FridrichActivity"
+            android:label="Fridrich Method"
+            android:parentActivityName=".SelectionActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SelectionActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".KnowYourCubeActivity"
+            android:label="Know Your Cube"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".WhiteCrossActivity"
+            android:label="The White Cross"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".WhiteCrossCongoActivity"
+            android:label="@string/congo"
+            android:parentActivityName=".WhiteCrossActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WhiteCrossActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".WhiteCornerActivity"
+            android:label="The White Corners"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".WhiteCornerCongoActivity"
+            android:label="@string/congo"
+            android:parentActivityName=".WhiteCornerActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WhiteCornerActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".MiddleLayerActivity"
+            android:label="The Middle Layer"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".MiddleLayerCongoActivity"
+            android:label="@string/congo"
+            android:parentActivityName=".MiddleLayerActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MiddleLayerActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowFaceOneActivity"
+            android:label="The Yellow Face (STAGE 1)"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowFaceTwoActivity"
+            android:label="The Yellow Face (STAGE 2)"
+            android:parentActivityName=".YellowFaceOneActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".YellowFaceOneActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowFaceCongoActivity"
+            android:label="@string/congo"
+            android:parentActivityName=".YellowFaceTwoActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".YellowFaceTwoActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowCornerOneActivity"
+            android:label="The Yellow Corners"
+            android:parentActivityName=".BasicActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BasicActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowCornerTwoActivity"
+            android:label="The Yellow Edges"
+            android:parentActivityName=".YellowCornerOneActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".YellowCornerOneActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".YellowCornerCongoActivity"
+            android:label="@string/congo"
+            android:parentActivityName=".YellowCornerTwoActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".YellowCornerTwoActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".CrossActivity"
+            android:label="Solving The Cross (C)"
+            android:parentActivityName=".FridrichActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FridrichActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".F2lActivity"
+            android:label="Solving First Two Layers (F2L)"
+            android:parentActivityName=".FridrichActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FridrichActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".OllActivity"
+            android:label="Orienting Last Layer (OLL)"
+            android:parentActivityName=".FridrichActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FridrichActivity" />
+
+        </activity>
+
+        <activity
+            android:name=".PllActivity"
+            android:label="Permuting Last Layer (PLL)"
+            android:parentActivityName=".FridrichActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FridrichActivity" />
+
+        </activity>
+
+    </application>
+
+</manifest>

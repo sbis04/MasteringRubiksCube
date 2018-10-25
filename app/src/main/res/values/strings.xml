@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mastering Rubik\'s Cube</string>
+    <string name="start">Start</string>
+    <string name="cfop_1">If you have already read our beginner’s solution guide, you will already know how to do this step. But here are a few tips on how to get faster at the cross.</string>
+    <string name="cfop_2">Try solving the cross on the bottom instead of the top. This means you can look ahead to the next step. You could even do it on the left if you like; some people do this and there is no disadvantage to it. A general hint is to never waste moves - know why you’re making moves when you do them. It may help if you turn a bit slower- this means, in the long run, you’ll use fewer moves and be faster.</string>
+    <string name="cfop_3">Try planning the cross in inspection time. Yes, in official competitions you get 15 seconds to inspect the cube. Try to imagine the moves you’re making and track where the cross pieces are going in your head.</string>
+    <string name="cfop_4">Instead of solving each edge one by one, see if you can solve two in one go. You may find this easier if, before you start, you already find where each of the white cross edges are on the cube.</string>
+    <string name="next">Next</string>
+    <string name="content_desc">image</string>
+    <string name="cfop_5">This is the hard bit. But be patient! It is a lot faster than the beginner’s way of solving the first two layers. Understand that, once you’ve done the cross, there are four corner-edge slots for you to fill, to complete solving the first two layers. Here we solve the first two layers at the same time, by making corner-edge pairs and then inserting the pairs into the empty slots. Again making the corner-edge pairs is intuitive, but here are a few tips:</string>
+    <string name="tips">Tips</string>
+    <string name="_1">1)</string>
+    <string name="cfop_6">Try making sure that the corner and edge of the pair have the same colour facing up, then you can use algorithms such as R U R’ to pair them up.</string>
+    <string name="_2">2)</string>
+    <string name="cfop_7">Be sure to pay attention to where the cross is, so you don’t break it.</string>
+    <string name="_3">3)</string>
+    <string name="congo">CONGRATULATIONS!</string>
+</resources>
