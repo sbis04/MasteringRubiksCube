@@ -1,7 +1,7 @@
 # Mastering Rubik's Cube
 ===================================
 
-This app helps can help anyone to learn solving Rubik’s Cube from the very basics. This app has step by step guide to help learn the algorithms faster. This app has two methods of solving Rubik’s Cube -
+This app can help anyone to learn solving Rubik’s Cube from the very basics. This app has step by step guide to help learn the algorithms faster. This app has two methods of solving Rubik’s Cube -
 
 1) Basic Method ( For Beginners )
 2) Fridrich Method ( For Advanced solving )
